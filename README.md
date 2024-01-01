@@ -31,9 +31,8 @@ The Bullet Linux distribution's repository
 ## How to install the local Toolchain
 
 1) Install the Rust compiler.
-2) `cd bpkg && cargo build --release && cd ..`
-3) `cd abs && cargo build --release && cd ..`
-4) `./install.sh`
+2) Clone/pull this repository.
+3) `./install.sh` (requires sudo if you want to install for all users)
 
 ## How to build the rootfs
 
