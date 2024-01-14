@@ -38,6 +38,7 @@ NOTE: The Archive for the Lab channel will always keep the last non-PSB version 
 
 - Small collection of packages = packages are more curated and tested
 - Packages get updated in Lab as soon as possible (rolling release design).
+- Packages are REALLY optimized, as we took inspiration from Thorium (read this: https://thorium.rocks/optimizations)
 
 ### Stability
 - Bulk updates (ex. if lib-x and program-y get a new update, and program-y requires the new version of lib-x, we will always make the new versions avaiable at the same time, so that it isn't possible to partially update the system, ).
