@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920px"
+   height="1080px"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="simple__red_velvet.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:export-filename="simple__red_velvet.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview21"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.6050303"
+     inkscape:cx="828.05771"
+     inkscape:cy="693.35371"
+     inkscape:window-width="1694"
+     inkscape:window-height="954"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs16">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient567">
+      <stop
+         style="stop-color:#ff2a2a;stop-opacity:1;"
+         offset="0"
+         id="stop563" />
+      <stop
+         style="stop-color:#800000;stop-opacity:1"
+         offset="1"
+         id="stop565" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient567"
+       id="linearGradient569"
+       x1="553.04199"
+       y1="987.98639"
+       x2="818.04126"
+       y2="103.69537"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient569);fill-opacity:1"
+       id="rect310"
+       width="1981.7338"
+       height="1129.1273"
+       x="-21.043415"
+       y="-14.402135" />
+    <g
+       inkscape:label="Livello 1"
+       inkscape:groupmode="layer"
+       id="layer1-6"
+       transform="translate(495.35234,679.3088)">
+      <style
+         type="text/css"
+         id="style9"><![CDATA[
+	.st0{fill:#000000;}
+]]></style>
+      <text
+         xml:space="preserve"
+         style="font-size:195.38px;fill:#e9afaf;stroke-width:16.2816"
+         x="148.77122"
+         y="-69.204231"
+         id="text235"
+         transform="scale(1.0449609,0.9569736)"><tspan
+           sodipodi:role="line"
+           id="tspan233"
+           x="148.77122"
+           y="-69.204231"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:IPAGothic;-inkscape-font-specification:IPAGothic;fill:#e9afaf;stroke-width:16.2816">BULLET</tspan><tspan
+           sodipodi:role="line"
+           x="148.77122"
+           y="175.02077"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:IPAGothic;-inkscape-font-specification:IPAGothic;fill:#e9afaf;stroke-width:16.2816"
+           id="tspan287" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:89.1675px;font-family:IPAGothic;-inkscape-font-specification:IPAGothic;fill:#e9afaf;stroke-width:7.43058"
+         x="340.85059"
+         y="2.8011386"
+         id="text291"
+         transform="scale(1.0237295,0.97682053)"><tspan
+           sodipodi:role="line"
+           id="tspan289"
+           x="340.85059"
+           y="2.8011386"
+           style="fill:#e9afaf;stroke-width:7.43058">LINUX</tspan></text>
+    </g>
+  </g>
+</svg>
