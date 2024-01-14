@@ -1,5 +1,5 @@
 # bullet
-The Bullet Linux distribution's repository
+The Bullet Linux distribution's repository.
 
 ## Components
 - Bullet Repository              ~ build scripts for packages in the Stable and Lab channel
@@ -24,6 +24,8 @@ Lab is used mostly by mantainers; packages gets updated as soon as they are rele
 Stable is useable everybody; it's a rolling release but it's REALLY stable, thanks to the package requirments, the small size of the repository and the period of time that each packages has to pass in the Lab channel.
 <br>
 If you don't know which one to use, please use the Stable.
+
+NOTE: At of right now, the packages are built for x86-64-v3. In the future, we will also release aarch64 as an official target. We'd also want to experiment with other targets, such as x86-64-v3-intel, x86-64-v3-amd and x86-64-v4.
 
 ### Lab+
 
