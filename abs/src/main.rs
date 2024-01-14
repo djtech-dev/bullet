@@ -10,13 +10,13 @@ struct Cli {
 
 #[derive(Args, Debug)]
 struct Repo {
-    #[clap(long, short, action)]
+    #[clap(long, short, action, default_value=true)]
     /// Rebuild all packages that use the updated packages as dependencies
     rebuild_lower_packages: bool,
-    #[clap(long, short, action)]
+    #[clap(long, short, action, default_value=true)]
     /// Test all updated packages
     test: bool,
-    #[clap(long, short, action)]
+    #[clap(long, short, action, default_value=true)]
     /// Check if any dependency collision can happen
     check_dependency_collision: bool,
 }

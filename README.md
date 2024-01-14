@@ -7,7 +7,9 @@ The Bullet Linux distribution's repository
 - ABS (Automated Build System)   ~ program for building packages and images for Bullet Linux
 - bpkg                           ~ Bullet Linux's package manager
 
-### Possible future Projects (all those projects are independent from bullet, and they will be )
+### Possible future Projects
+NOTE: Those project will NOT be dependent on other Bullet components, so they can run on any GNU/Linux distribution. However, those projects will be deeply integrated with the rest of Bullet and updates will be relased as soon as the project updates.
+
 - AIS (Automated Install System) ~ Easy but flexbile system for automaticaly installing Bullet Linux on different machines.
 - coffee-init                    ~ Fuck systemd.
 - nic (Nic is not CUPS)          ~ Fuck CUPS.
@@ -15,11 +17,11 @@ The Bullet Linux distribution's repository
 
 ## Branches
 
-There are two branches: Stable and Lab.
+There are two channeles: Stable and Lab.
 
-Lab is used mostly by mantainers; packages gets updated as soon as they are released from the authors, and they can be really unstable; not only that, but they can also contains ABS errors, which means that they are packages that either fail their required tests or can be cause of depedency collision, in fact all those issues must be resolved before those packages can be sent to Stable. The normal wait time is 1-2 weeks for minor releases, 2-8 weeks for major releases. It's a good idea to use only in containers/VMs, and test hardware-related packages (like the kernel) using a real machine running Bullet Linux in the Stable branch and locking those packages in the Lab branch.
+Lab is used mostly by mantainers; packages gets updated as soon as they are released from the authors, and they can be really unstable; not only that, but they can also contains ABS errors, which means that they are packages that either fail their required tests or can be cause of depedency collision, in fact all those issues must be resolved before those packages can be sent to Stable. The normal wait time is 1-2 weeks for minor releases, 2-8 weeks for major releases. It's a good idea to use only in containers/VMs, and test hardware-related packages (like the kernel) using a real machine running Bullet Linux in the Stable channel and locking those packages in the Lab channel.
 <br>
-Stable is useable everybody; it's a rolling release but it's REALLY stable, thanks to the package requirments, the small size of the repository and the period of time that each packages has to pass in the Lab branch.
+Stable is useable everybody; it's a rolling release but it's REALLY stable, thanks to the package requirments, the small size of the repository and the period of time that each packages has to pass in the Lab channel.
 <br>
 If you don't know which one to use, please use the Stable.
 
@@ -30,7 +32,7 @@ If you want to use Lab with less unstable packages, you can try to enter PSB-fre
 PSB stands for Possible System Breaker, and it's a flag that is enabled on packages that either don't pass all the implemented test or can be cause of depenency collision.
 <br>The PSB-free mode will stop the package manager from updating your packages to any PSB-flagged version.
 
-NOTE: The Archive for the Lab branch will always keep the last non-PSB version of any package, alongside the latest one.
+NOTE: The Archive for the Lab channel will always keep the last non-PSB version of any package, alongside the latest one.
 
 ## Concepts
 
@@ -46,10 +48,10 @@ NOTE: The Archive for the Lab branch will always keep the last non-PSB version o
 ### `bpkg`
 - A simple, flexible, compatible, reproducable and recoverable package manager:
     - Simple: `install`, `remove`, `clean`, `update`. Is this easy enough?
-    - Flexible:
+    - Flexible: Locks allow you to manage in-depth aspects of the package manager, allowing specific packages to be not update or to use another Channel. This can break compatibility
     - Compatible: you can download binaries from Bullet Archives, compile official packages from the Bullet Repository, compile community-provided packages from the Community Bullet Repository, you can directly install `.deb` files or install them, with their dependencies (if they aren't found in the Bullet Repository) from any deb-compatible remote mirror (ex. Debian, Ubuntu, etc...).
     - Reproducable: Bpkg allows you to export the entire or part of the package tree (with the version of the packages), import it in another system in order to have an exact copy, embed it in packages in order to have the advantages of Docker (without being a container), and even building ISO and OCI images.
-    - Recoverable: Bpkg takes ispiration from git; in fact,
+    - Recoverable: Bpkg takes ispiration from git; in fact, the concepts of Commits and Branches derive directly from git and we took inspiration in order to make a system that is rollbackable and syncronizable between different systems.
 
 ## HowTo
 
